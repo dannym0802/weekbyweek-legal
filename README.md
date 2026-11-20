@@ -2,6 +2,8 @@
 
 Host these files on a **public** HTTPS URL (GitHub Pages works). Twilio needs live links.
 
+Live site: https://dannym0802.github.io/weekbyweek-legal/
+
 ## Pages
 
 | File | Use in Twilio campaign |
@@ -12,8 +14,7 @@ Host these files on a **public** HTTPS URL (GitHub Pages works). Twilio needs li
 
 ## Brand name
 
-Copy uses brand **Danny Mauro** (sole proprietor) and product **Week by Week**.
-If your Twilio Brand registration uses a different legal name, update every page to match exactly.
+Copy uses brand **Week by Week** (must match your Twilio A2P Brand registration).
 
 ## Suggested Twilio field answers
 
@@ -21,8 +22,8 @@ If your Twilio Brand registration uses a different legal name, update every page
 > Users opt in by entering their mobile number in the Week by Week app and tapping Send code to receive a login OTP. See [opt-in URL]. Privacy: [privacy URL]. Terms: [terms URL].
 
 **Campaign description (if asked):**  
-> This campaign sends SMS one-time passcodes so users can sign in to the Week by Week habit tracking app operated by Danny Mauro. Messages are authentication-only.
+> This campaign sends SMS one-time passcodes so users can sign in to the Week by Week habit tracking app. Messages are authentication-only.
 
-**Sample messages (if asked):**  
-1. `Your Week by Week code is [123456]. Msg & data rates may apply. Reply STOP to opt out.`  
-2. `Week by Week: your login code is [123456]. Reply STOP to cancel; HELP for help.`
+**Sample messages:**  
+1. `Week by Week: Your login code is [123456]. Msg & data rates may apply. Reply STOP to opt out.`  
+2. `Week by Week: your verification code is [123456]. Do not share this code. Reply STOP to cancel; HELP for help. https://dannym0802.github.io/weekbyweek-legal/`
