@@ -21,45 +21,102 @@
         <strong>Week by Week</strong>.
       </p>
 
-      <h2>How users opt in</h2>
+      <h2>Message flow (call to action)</h2>
       <p>
-        Opt-in happens inside the <strong>Week by Week</strong> iOS/Android app (not via
-        a pre-checked box or purchased list):
+        End users opt in <strong>only</strong> inside the Week by Week iOS/Android
+        app (not via keyword text-in, purchased lists, or a pre-checked website box):
       </p>
       <ol>
-        <li>The user opens Week by Week and sees the Sign in screen.</li>
+        <li>The user opens Week by Week and goes to the Sign in screen.</li>
+        <li>They choose the <strong>Phone</strong> sign-in option.</li>
         <li>They enter their mobile phone number.</li>
         <li>
-          They tap <strong>Send code</strong>, which requests an SMS one-time passcode
-          for authentication and constitutes consent to receive those SMS messages.
+          Below the phone field they see the required SMS consent disclosures
+          (program name, message type, frequency, rates, STOP/HELP, and links to
+          Privacy Policy and Terms).
+        </li>
+        <li>
+          They tap <strong>Send code</strong>, which is affirmative consent to
+          receive recurring automated SMS messages from Week by Week for account
+          authentication (one-time passcodes).
         </li>
         <li>They enter the code from the SMS to complete sign-in.</li>
       </ol>
       <p>
-        Supporting disclosures are available publicly:
-        <a href="privacy.html">Privacy Policy</a> and
-        <a href="terms.html">Terms &amp; Conditions</a> (including SMS Terms).
+        Public supporting links used in the campaign submission:
       </p>
+      <ul>
+        <li>
+          Opt-in proof (this page):
+          <a href="https://dannym0802.github.io/weekbyweek-legal/sms-opt-in.html"
+            >https://dannym0802.github.io/weekbyweek-legal/sms-opt-in.html</a
+          >
+        </li>
+        <li>
+          Privacy Policy:
+          <a href="https://dannym0802.github.io/weekbyweek-legal/privacy.html"
+            >https://dannym0802.github.io/weekbyweek-legal/privacy.html</a
+          >
+        </li>
+        <li>
+          Terms &amp; Conditions:
+          <a href="https://dannym0802.github.io/weekbyweek-legal/terms.html"
+            >https://dannym0802.github.io/weekbyweek-legal/terms.html</a
+          >
+        </li>
+      </ul>
+
+      <h2>Required consent language (shown at opt-in)</h2>
+      <div class="card">
+        <p>
+          By tapping <strong>Send code</strong>, you agree to receive recurring
+          automated text messages from <strong>Week by Week</strong> for account
+          authentication (one-time passcodes / login verification). Message
+          frequency varies (typically one message each time you request a sign-in
+          code). Message and data rates may apply. Reply <strong>STOP</strong> to
+          cancel, <strong>HELP</strong> for help. Consent is not a condition of
+          purchase. See our
+          <a href="privacy.html">Privacy Policy</a> and
+          <a href="terms.html">Terms</a>.
+        </p>
+      </div>
 
       <h2>What the user sees (sign-in / opt-in screen)</h2>
-      <div class="phone-mock" aria-label="Mock of Week by Week sign-in screen">
+      <p>
+        Hosted mock of the in-app Phone sign-in screen, including the consent
+        language shown before the user taps Send code:
+      </p>
+      <div class="phone-mock" aria-label="Mock of Week by Week phone sign-in screen">
         <p class="title">Week by Week</p>
-        <p class="sub">Enter your cell number. We’ll text you a code.</p>
+        <p class="sub">Enter your cell number. We’ll text you a one-time code.</p>
         <div class="field">(555) 123-4567</div>
+        <p class="consent">
+          By tapping Send code, you agree to receive recurring automated text
+          messages from Week by Week for account authentication (one-time
+          passcodes / login verification). Message frequency varies (typically
+          one message each time you request a sign-in code). Message and data
+          rates may apply. Reply STOP to cancel, HELP for help. Consent is not a
+          condition of purchase. Privacy Policy · Terms
+        </p>
         <div class="btn">Send code</div>
       </div>
       <p>
-        After tapping <strong>Send code</strong>, the user receives an SMS one-time
-        passcode used only for login verification.
+        After tapping <strong>Send code</strong>, the user receives an SMS
+        one-time passcode used only for login verification.
       </p>
 
       <h2>Message type &amp; sample</h2>
-      <p>Transactional authentication only (no marketing blasts).</p>
+      <p>Transactional authentication only (no marketing or promotional blasts).</p>
       <div class="card">
         <p>
-          <strong>Sample SMS:</strong><br />
-          Week by Week: Your login code is 123456. Msg &amp; data rates may apply. Reply
-          STOP to opt out.
+          <strong>Sample SMS 1:</strong><br />
+          Week by Week: Your login code is 123456. Msg &amp; data rates may
+          apply. Reply STOP to opt out.
+        </p>
+        <p>
+          <strong>Sample SMS 2:</strong><br />
+          Week by Week: your verification code is 123456. Do not share this
+          code. Reply STOP to cancel; HELP for help.
         </p>
       </div>
 
@@ -67,7 +124,7 @@
       <p>
         Users can reply <strong>STOP</strong> to SMS messages, reply
         <strong>HELP</strong> for help, email
-        <a href="mailto:dannymauro0802@gmail.com">dannymauro0802@gmail.com</a>, or
+        <a href="mailto:admin@wbwsupport.com">admin@wbwsupport.com</a>, or
         delete their account in Settings.
       </p>
 

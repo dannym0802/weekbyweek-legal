@@ -113,6 +113,13 @@ a {
   margin-bottom: 14px;
 }
 
+.phone-mock .consent {
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.45;
+  margin: 0 0 14px;
+}
+
 .phone-mock .btn {
   display: block;
   text-align: center;
